@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url("../../fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.button-home-page {
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.025em;
+    color: #F5FAFF;
+    width: 280px;
+    height: 60px;
+    background-color: #64D370;
+    box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+    border-radius: 190px;
+
+    &:hover {
+        color: #64D370;
+        background-color: #F5FAFF;
+        border: 3px solid #64D370;
+    }
+}
+
+.button-blog-page {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    color: #F5FAFF;
+    width: 149px;
+    height: 35px;
+    background-color: #64D370;
+    box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+    border-radius: 190px;
+
+    &:hover {
+        color: #64D370;
+        background-color: #F5FAFF;
+        border: 3px solid #64D370;
+    }
+}
+
+.button-nav {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    color: #64D370;
+    width: 100px;
+    height: 30px;
+    background-color: #F5FAFF;
+    box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+    border: 3px solid #64D370;
+    border-radius: 190px;
+
+    &:hover {
+        color: #F5FAFF;
+        background-color: #64D370;
+        border: 3px solid #F5FAFF;
+    }
+}

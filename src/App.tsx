@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+
+import AboutUsPage from './components/AboutUsPage/AboutUsPage';
+import { BlogPage } from './components/BlogPage/BlogPage';
+import { Footer } from './components/Footer/Footer';
+import FullPostPage from './components/FullPostPage/FullPostPage';
+import { Header } from './components/Header/Header';
+import { HomePage } from './components/HomePage/HomePage';
+import Main from './components/Main/Main';
+import ShopPage from './components/ShopPage/ShopPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <BrowserRouter>
+      <Header />
+      <Main>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/blog' element={<BlogPage />} />
+          <Route path='/shop' element={<ShopPage />} />
+          <Route path='/about' element={<AboutUsPage />} />
+          <Route path='/blog/post' element={<FullPostPage />} />
+        </Routes>
+      </Main>
+      <Footer />
+    </BrowserRouter>
+    </>
   );
 }
 

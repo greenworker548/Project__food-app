@@ -1,0 +1,110 @@
+{
+    "posts": [
+      { "id": 14,
+        "linkImage": "https://img2.fonwall.ru/o/sa/arugula-fruits-vegetables.jpeg?route=mid&h=750",
+        "title": "Как поменять свои пищевые привычки?",
+        "date": "14.01.2023",
+        "author": "typicode"
+      },
+      { "id": 13,
+        "linkImage": "https://img3.fonwall.ru/o/lb/restaurant-dish-meal-food-oufw.jpeg?route=mid&h=750",
+        "title": "Что лучше — худеть индивидуально или в группе?",
+        "date": "13.01.2023",
+        "author": "typicode"
+      },
+      { "id": 12,
+        "linkImage": "https://img3.fonwall.ru/o/pj/fruit-morning-bowl-dish.jpeg?route=mid&h=750",
+        "title": "Как связаны похудение и состояние кожи?",
+        "date": "12.01.2023",
+        "author": "typicode"
+      },
+      { "id": 11,
+        "linkImage": "https://img2.fonwall.ru/o/sd/blyudo-pishcha-recept.jpg?route=mid&h=750",
+        "title": "В каком контексте происходят консультации?",
+        "date": "11.01.2023",
+        "author": "typicode"
+      },
+      { "id": 10,
+        "linkImage": "https://img1.fonwall.ru/o/vk/sharp-dish-meal-food.jpeg?route=mid&h=750",
+        "title": "Как морская вода и плавание влияют на здоровье.",
+        "date": "10.01.2023",
+        "author": "typicode"
+      },
+      { "id": 9,
+        "linkImage": "https://img1.fonwall.ru/o/an/plant-grain-fruit-berry.jpeg?route=mid&h=750",
+        "title": "Существует ли идеальная диета?",
+        "date": "9.01.2023",
+        "author": "typicode"
+      },
+      { "id": 8,
+        "linkImage": "https://img1.fonwall.ru/o/sx/food-meat-vegetables-fish.jpeg?route=mid&h=750",
+        "title": "Можно ли есть и при этом худеть.",
+        "date": "8.01.2023",
+        "author": "typicode"
+      },
+      { "id": 7,
+        "linkImage": "https://img1.fonwall.ru/o/iq/table-nature-plant-fruit-lxeh.jpeg?route=mid&h=750",
+        "title": "Жесткая диета или всего понемногу.",
+        "date": "7.01.2023",
+        "author": "typicode"
+      },
+      { "id": 6,
+        "linkImage": "https://img1.fonwall.ru/o/yh/white-restaurant-dish-meal.jpeg?route=mid&h=750",
+        "title": "Как правильно голодать без вреда для здоровья.",
+        "date": "6.01.2023",
+        "author": "typicode"
+      },
+      { "id": 5,
+        "linkImage": "https://img.fonwall.ru/o/gs/blyudo-pirog-yabloki-listya.jpg?route=mid&h=750",
+        "title": "Индивидуальный завтрак.",
+        "date": "5.01.2023",
+        "author": "typicode"
+      },
+      { "id": 4,
+        "linkImage": "https://img.fonwall.ru/o/c4/shchenki-mordi-ushi-lapi.jpg?route=mid&h=750",
+        "title": "Отличная замена сахару.",
+        "date": "4.01.2023",
+        "author": "typicode"
+      },
+      { "id": 3,
+        "linkImage": "https://img1.fonwall.ru/o/jr/ryba-fud-foto-eda.jpg?route=mid&h=750",
+        "title": "Как похудеть после 20 лет обжорства.",
+        "date": "3.01.2023",
+        "author": "typicode"
+      },
+      { "id": 2,
+        "linkImage": "https://img.fonwall.ru/o/sl/tarelka-blyudo-spagetti-riba.jpg?route=mid&h=750",
+        "title": "Рецепты диетических крем-супов.",
+        "date": "2.01.2023",
+        "author": "typicode"
+      },
+      { "id": 1,
+        "linkImage": "https://img1.fonwall.ru/o/av/tea-restaurant-dish-meal.jpeg?route=mid&h=750",
+        "title": "Что недоговаривают о глютене.",
+        "date": "1.01.2023",
+        "author": "typicode"
+      }
+    ],
+    "shop": [
+      { "id": 1,
+        "title": "Thing #1",
+        "description": "Description thing #1"
+      },
+      { "id": 2,
+        "title": "Thing #2",
+        "description": "Description thing #1"
+      },
+      { "id": 3,
+        "title": "Thing #3",
+        "description": "Description thing #1"
+      },
+      { "id": 4,
+        "title": "Thing #4",
+        "description": "Description thing #1"
+      },
+      { "id": 5,
+        "title": "Thing #5",
+        "description": "Description thing #1"
+      }
+    ]
+}

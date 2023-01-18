@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url("../../fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.pagination {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+
+    .pagination_button {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.025em;
+        color: #64D370;
+        width: 100px;
+        height: 60px;
+        background-color: #F5FAFF;
+        box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+        border: 3px solid #64D370;
+        border-radius: 190px;
+    
+        &:hover {
+            color: #F5FAFF;
+            background-color: #64D370;
+            border: 3px solid #F5FAFF;
+        }
+
+        &:disabled {
+            color: silver;
+            background-color: #F5FAFF;
+            border: 3px solid silver;
+        }
+    }
+}

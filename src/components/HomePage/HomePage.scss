@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url("../../fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.home-page {
+    max-width: 1240px;
+    margin: 75px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+
+    .home-page__content {
+        width: 620px;
+
+        .content__title{
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 45px;
+            letter-spacing: 0.025em;
+            margin: 0px 0px 10px 0px;
+        }
+
+        .content__description {
+            color: #64D370;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 45px;
+            letter-spacing: 0.025em;
+            margin: 0px 0px 20px 0px;
+        }
+
+        .content__order{
+            max-width: 465px;
+            display: flex;
+            justify-content: space-between;
+
+            // button {
+            //     font-family: 'Comfortaa';
+            //     font-weight: 700;
+            //     font-size: 26px;
+            //     letter-spacing: 0.025em;
+            //     color: #F5FAFF;
+            //     width: 280px;
+            //     height: 60px;
+            //     background-color: #64D370;
+            //     box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+            //     border-radius: 190px;
+
+            //     &:hover {
+            //         color: #64D370;
+            //         background-color: #F5FAFF;
+            //         border: 3px solid #64D370;
+            //     }
+            // }
+
+            .orfer__sale {
+
+                .sale__description {
+                    font-family: 'Montserrat';
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+
+                .sale__number {
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 35px;
+                    color: #64D370;
+                }
+            }
+        }
+    }
+
+    .home-page__illustration {
+
+        img {
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            border: 20px solid #64D370;
+            background-color: #F5FAFF;
+            box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+        }
+    }
+}

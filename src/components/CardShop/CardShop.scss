@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url("../../fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.card {
+    max-width: 380px;
+    margin: 0px 16px 40px 16px;
+
+    .card__image {
+        width: 380px;
+        height: 190px;
+        margin: 0px 0px 20px 0px;
+
+        img {
+            width: 380px;
+            height: 190px;
+            border-radius: 30px;
+            object-fit: cover;
+        }
+    }
+
+    .card__title {
+        height: 36px;
+        font-family: 'Comfortaa';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .card__nav {
+        display: flex;
+        justify-content: space-between;
+
+        .card__date {
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 133.8%;
+            letter-spacing: 0.025em;
+            color: #B5C2CE;
+        }
+    }
+}

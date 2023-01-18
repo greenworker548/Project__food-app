@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url("../../fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.header {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+    .header__logo {
+        width: 264px;
+        height: 264px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #F5FAFF;
+        box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+        position: absolute;
+        top: -47px;
+        left: 0px;
+        z-index: 5;
+        border: 15px solid #64D370;
+
+        p {
+            color: #111;
+            font-family: 'Comfortaa';
+            font-size: 14px;
+        }
+    }
+
+    .header__nav {
+        background-color: #F5FAFF;
+        box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+        border-radius: 190px;
+        margin: 52px 20px 0px 0px;
+
+        ul {
+            height: 52px;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 100px;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-self: center;
+
+                li {
+                    margin: auto;
+                    width: 210px;
+                    color: #64D370;
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .header__tel {
+        width: 280px;
+        height: 52px;
+        background-color: #F5FAFF;
+        box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+        border-radius: 190px;
+        display: flex;
+        margin-top: 52px;
+
+        p {
+            color: #64D370;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 20px;
+            margin: auto;
+        }
+    }
+}
