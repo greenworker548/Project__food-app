@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url("../../fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.singin-page {
+    width: 440px;
+    margin: 120px auto 70px auto;
+
+    .singin-page__title {
+        color: #64D370;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .singin-page__email{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        p {
+            color: #64D370;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        input {
+            width: 300px;
+            height: 40px;
+            box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+            border-radius: 190px;
+            color: #64D370;
+            font-family: 'Montserrat';
+            font-size: 18px;
+            text-align: center;
+            background-color: #F5FAFF;
+        }
+    }
+
+    .singin-page__password{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        p {
+            color: #64D370;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        input {
+            width: 300px;
+            height: 40px;
+            box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+            border-radius: 190px;
+            color: #64D370;
+            font-family: 'Montserrat';
+            font-size: 18px;
+            text-align: center;
+            background-color: #F5FAFF;
+        }
+    }
+
+    .singin-page__button {
+        text-align: center;
+
+        button {
+            font-family: 'Comfortaa';
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 0.025em;
+            color: #F5FAFF;
+            width: 150px;
+            height: 40px;
+            background-color: #64D370;
+            box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+            border-radius: 190px;
+            margin: 0px 3px;
+
+            &:hover {
+                color: #64D370;
+                background-color: #F5FAFF;
+                border: 3px solid #64D370;
+            }
+        }
+    }
+}

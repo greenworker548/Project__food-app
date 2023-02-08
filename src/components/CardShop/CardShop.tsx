@@ -1,5 +1,8 @@
+import { title } from "process";
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+import { addCard } from "../../redux/actionCreators/cartActionCreators";
 import Button from "../Button/Button";
 
 import './CardShop.scss'
@@ -8,10 +11,14 @@ type CardShopType = {
     linkImage?: string,
     title: string,
     description: string,
+    price: number,
     id: any
 }
 
-const CardShop = ({linkImage, title, description, id}: CardShopType) => {
+const CardShop = ({linkImage, title, description, price, id}: CardShopType) => {
+    const dispatch = useDispatch()
+    const arr = useSelector((state: any) => state.cartReducers)
+
     return (
         <div className="card" id={id}>
             <div className="card__image">
@@ -20,13 +27,11 @@ const CardShop = ({linkImage, title, description, id}: CardShopType) => {
             <p className="card__title">
                 {title}
             </p>
+            <p className="card__price">
+                {`${price} р.`}
+            </p>
             <div className="card__nav">
-                <p className="card__date">
-                    {description}
-                </p>
-                {/* <NavLink to="/blog/post">
-                    <Button text="Подробнее" className="button-blog-page"/>
-                </NavLink> */}
+                <Button text="Добавить в корзину" className="button-add-cart" onClick={() => dispatch(addCard({title, price, id}))} />
             </div>
         </div>
     )

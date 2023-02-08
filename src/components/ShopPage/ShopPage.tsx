@@ -16,7 +16,6 @@ const ShopPage = () => {
     },[])
         
     const arrShop = useSelector((state: any) => state.shopReducer.data)
-    console.log(arrShop)
 
     return (
         <div className="shop-page">
@@ -26,7 +25,7 @@ const ShopPage = () => {
             </NavLink>
           </div>
           <div className="shop__list">
-            {arrShop.map((item: any)=> <CardShop linkImage={item.linkImage} title={item.title} description={item.description} id={item.id} key={item.id}/>)}
+            {arrShop.map((item: any)=> <CardShop linkImage={item.linkImage} title={item.title} description={item.description} price={item.price} id={item.id} key={item.id}/>)}
           </div>
         </div>
     )

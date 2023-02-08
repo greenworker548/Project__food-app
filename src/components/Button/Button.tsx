@@ -4,12 +4,13 @@ import './Button.scss'
 
 type Buttons = {
     text: string,
-    className: string
+    className: string,
+    onClick?: () => any
 }
 
-const Button = ({text, className}: Buttons) => {
+const Button = ({text, className, onClick}: Buttons) => {
     return (
-        <button className={className}>
+        <button className={className} onClick={onClick}>
             {text}
         </button>
     )

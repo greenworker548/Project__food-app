@@ -14,6 +14,7 @@ const BlogPage = () => {
   const countPagination = useSelector((state: any) => state.settingsReducers.paginationCount)
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     dispatch(fetchPosts(countPagination))
   },[countPagination])
     
@@ -28,7 +29,7 @@ const BlogPage = () => {
         </NavLink>
       </div>
       <div className="blog__list">
-        {arrPost.map((item: any)=> <Post linkImage={item.linkImage} title={item.title} date={item.date} id={item.id} key={item.id}/>)}
+        {arrPost.map((item: any) => <Post linkImage={item.linkImage} title={item.title} date={item.date} id={item.id} key={item.id} description={item.description}/>)}
       </div>
       <Pagination />
     </div>

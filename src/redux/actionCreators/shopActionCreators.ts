@@ -7,7 +7,6 @@ export const fetchShop = () => ({type: FETCH_SHOP})
 function* getShopFetch() {
     const data: Response = yield call(() => fetch(`http://localhost:3001/shop`))
     const json: Response = yield call(() => new Promise(res => res(data.json())))
-    console.log(json)
     yield put(getShop(json))
 }
 

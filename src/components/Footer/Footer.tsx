@@ -13,12 +13,10 @@ const Footer = () => {
     return (
         <div className="wrapper">
             <footer className="footer">
-            <div className="footer__nav">
-                <ul>
-                    <NavLink to="/"><li>Gastro Shop</li></NavLink>
-                    <NavLink to="/blog"><li>Блог</li></NavLink>
-                    <NavLink to="/about"><li>О нас</li></NavLink>
-                </ul>
+            <div className="footer__text">
+                <p>
+                    Copyright © 2010-2023 Gastro Chef S.L. Все права защищены.
+                </p>
             </div>
             <div className="footer__logo">
                 <img src={mainLogo} alt="#logo" />
@@ -28,16 +26,16 @@ const Footer = () => {
                 <p>+38 (068) 949 - 49 - 19</p>
                 <div className="contacts__links">
                     <div>
-                        <img src={icon1} alt="#icon1" /> 
+                        <a href="#"><img src={icon1} alt="#icon1" /></a>
                     </div>
                     <div>
-                        <img src={icon2} alt="#icon2" /> 
+                        <a href="#"><img src={icon2} alt="#icon1" /></a> 
                     </div>
                     <div>
-                        <img src={icon3} alt="#icon3" /> 
+                        <a href="#"><img src={icon3} alt="#icon1" /></a>
                     </div>
                     <div>
-                        <img src={icon4} alt="#icon4" /> 
+                        <a href="#"><img src={icon4} alt="#icon1" /></a>
                     </div>
                 </div>
             </div>

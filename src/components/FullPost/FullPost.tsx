@@ -6,10 +6,10 @@ interface FullPosts {
     linkImage: string,
     title: string,
     date: string,
-    text: string
+    description?: string
 }
 
-const FullPost = ({linkImage, title, date, text}: FullPosts) => {
+const FullPost = ({linkImage, title, date, description}: FullPosts) => {
     return (
         <div className="full-post">
             <div className="full-post__img">
@@ -22,7 +22,7 @@ const FullPost = ({linkImage, title, date, text}: FullPosts) => {
                 {date}
             </p>
             <p className="full-post__text">
-                {text}
+                {description}
             </p>
         </div>
     )

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url("../../fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.cart-item {
+    width: 840px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+
+    p {
+        width: 100px;
+        color: #64D370;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+    }
+}
